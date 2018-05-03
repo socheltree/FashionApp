@@ -1,0 +1,27 @@
+{
+
+  "UserNotFoundError": {
+    "name": "UserNotFoundError",
+    "message": "Resource in request not found.",
+    "statusCode": 404
+  },
+
+  "UserNotDeletedError": {
+    "name": "UserNotDeletedError",
+    "message": "User could not be deleted. Check db connection.",
+    "statusCode": 503
+  },
+
+  "UserNotCreatedError": {
+    "name": "UserNotCreatedError",
+    "message": "User could not be created. Check db connection.",
+    "statusCode": 503
+  },
+
+  "DatabaseError": {
+    "name": "DatabaseError",
+    "message": "There was an error conmmunicating with the database.",
+    "statusCode": 500
+  }
+
+}
